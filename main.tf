@@ -7,7 +7,7 @@ variable "bucket_prefix" {
 }
 
 resource "aws_s3_bucket" "buckets" {
-  count  = 4
+  count  = 5
   bucket = "${var.bucket_prefix}-${count.index + 1}"
 
   tags = {
