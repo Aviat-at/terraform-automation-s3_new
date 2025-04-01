@@ -1,6 +1,3 @@
-# Save the complete README.md content as a markdown file
-
-readme_content = """
 #  Automated AWS S3 Bucket Creation using Terraform
 
 ##  Project Overview
